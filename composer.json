@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Rap2hpoutre\\FastExcel\\": "src/"
+      "sl5310\\FastExcel\\": "src/"
     },
     "files": [
       "src/functions/fastexcel.php"
@@ -22,13 +22,13 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Rap2hpoutre\\FastExcel\\Tests\\": "tests/"
+      "sl5310\\FastExcel\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-          "Rap2hpoutre\\FastExcel\\Providers\\FastExcelServiceProvider"
+          "sl5310\\FastExcel\\Providers\\FastExcelServiceProvider"
       ]
     }
   },
